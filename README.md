@@ -1,3 +1,3 @@
 # Abhishekrajput91
-This is my first repo.
+This is my first repository.
 By Abhishek
