@@ -1,29 +1,4 @@
 
-// // const options = {
-// // 	method: 'GET',
-// // 	headers: {
-// // 		'x-rapidapi-key': 'f16417c394mshcebb2c23f626a89p104a74jsnd214139db919',
-// // 		'x-rapidapi-host': 'yahoo-weather5.p.rapidapi.com'
-// // 	}
-// // };
-// // fetch('https://yahoo-weather5.p.rapidapi.com/weather?location=sunnyvale&format=json&u=f',options)
-
-// //     .then(response =>response.json())
-// //     .then(response => console.log(response))
-// //     .catch(err => console.error(err));
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'x-rapidapi-key': 'f16417c394mshcebb2c23f626a89p104a74jsnd214139db919',
-// 		'x-rapidapi-host': 'foreca-weather.p.rapidapi.com'
-// 	}
-// };
-
-// fetch('https://foreca-weather.p.rapidapi.com/forecast/15minutely/102643743?alt=0&tempunit=C&windunit=MS&tz=India%Indore&periods=8&dataset=full',options)
-
-//     .then(response =>response.json())
-//     .then(response => console.log(response))
-//     .catch(err => console.error(err));
 
     const Api_Key = '9b9683265a74b12b2fd9022fd8b4613e'
     const form = document.querySelector("form")
@@ -51,15 +26,10 @@
     }
 
     form.addEventListener(
-        "submit",
+        "submit",        
         function(event){
             getWeather(search.value)
             event.preventDefault();
         }
     )
-    // const Api = 'https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${Api_Key}'
-    // const city = document.getElementById('city').value;
-    // if(!city){
-    //     alert("Enter city")
-    //     return
-    // }
+   
